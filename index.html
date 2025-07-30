@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rabindra Kumar - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/brands.min.css" integrity="sha512-mXqwRsOznG7CS37KA7CLR1Fc72gfOgp7r8xaVdBKoBKhitcKI/mK+IamtZUf+FAkufXOvVTESu9lPsoQc+kFxg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+   <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">
+                <img src="logork.png" alt="logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+             <div class="mobile-menu" onclick="openMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                </div> 
+            <!-- <div class="cross-menu" onclick="closeMenu()">
+                        <i class="fa-solid fa-xmark"></i>
+                </div>  -->               
+        </div>
+
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="profile-image">
+                <img src="photo.jpg" alt="Rabindra Kumar" class="profile-pic">
+            </div>
+            <h1>Rabindra Kumar</h1>
+            <p class="subtitle"><b>Data Scientist,Machine Learning Engineer & AI Enthusiast</b></p>
+            <p class="description">Passionate about data and AI, I enjoy solving real-world problems using Python, SQL, Machine Learning, Generative AI and AI Tools/Agents.</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn primary">View Projects</a>
+                <a href="#contact" class="btn secondary">Contact Me</a>
+                <a href="Rabindra_kumar.pdf" class="btn primary" download>Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <b> <p>I am a passionate Data Scientist and AI enthusiast with expertise in Python, SQL, Machine Learning, and Generative AI. I specialize in turning data into insights and building smart applications with deep learning and generative AI tools.</p>
+                <p>Currently working as a Data Science Mentor at Naresh ITechnology, Hyderabad, where I guide students in Data Science, Machine Learning, and AI concepts.</p>
+                <p>I'm constantly exploring and integrating AI tools into my workflow to enhance productivity and innovation. Some of the tools I'm actively using and exploring include Gema.ai for AI-powered development, Clipmap.com for visual content management, <i>Cursor.ai</i> for intelligent coding assistance, <i>GitHub Copilot</i> for code generation, <i>Napkin.ai</i> for AI-driven documentation, and various specialized chatbots for different tasks. This exploration helps me stay at the forefront of AI technology and find innovative solutions to complex problems.</p></b>
+            </div>
+            <div class="education">
+                <h3>Education</h3>
+                <div class="education-item">
+                    <h4>B.Sc Indian Institute Of Technology Patna </h4>
+                    <p>IITP, Bihta Kanpa Rd, Patna, Dayalpur Daulatpur, Bihar 801106</p>
+                    <p>January 2024 - March 2027 </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>Programming Languages</h3>
+                <div class="skill-items">
+                    <span class="skill-item">Python</span>
+                    <span class="skill-item">SQL</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Data Science & Analysis</h3>
+                <div class="skill-items">
+                    <span class="skill-item">Data Cleaning</span>
+                    <span class="skill-item">Data Analysis</span>
+                    <span class="skill-item">Data Visualization</span>
+               <!-- <span class="skill-item">Machine Learning</span>   -->
+                    <span class="skill-item">Statistics</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>AI & Deep Learning</h3>
+                <div class="skill-items">
+                    <span class="skill-item">Machine Learning</span>
+                    <span class="skill-item">Deep Learning</span>
+                    <span class="skill-item">NLP</span>
+                    <span class="skill-item">Computer Vision</span>
+                 <!--    <span class="skill-item">MediaPipe</span>   -->
+
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Generative AI & LLMs</h3>
+                <div class="skill-items">
+                    <span class="skill-item">GPT</span>
+                    <span class="skill-item">LLaMA</span>
+                    <span class="skill-item">DeepSeek</span>
+                    <span class="skill-item">RAG</span>
+                    <span class="skill-item">LangChain</span>
+                    <span class="skill-item">AI Agents</span>
+                    <span class="skill-item">MCP</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Data Visualization</h3>
+                <div class="skill-items">
+                    <span class="skill-item">Power BI</span>
+                    <span class="skill-item">Matplotlib</span>
+                    <span class="skill-item">Seaborn</span>
+                    <span class="skill-item">Tableau</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>AI Tools & Platforms</h3>
+                <div class="skill-items">
+                    <span class="skill-item">Google Gemini</span>
+                    <span class="skill-item">Hugging Face</span>
+                    <span class="skill-item">Ngrok</span>
+                    <span class="skill-item">Azure AI</span>
+                    <span class="skill-item">Streamlit</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3> Email/SMS Spam Classifier </h3>
+                <p>Predictive & Classification Model using Python, Pandas, and Sklearn.naive_bayes algorithm</p>
+                <div class="project-tags">
+                    <span>Python</span>
+                    <span>Machine Learning</span>
+                    <span>NLP</span>
+                </div>
+                    <div class="project-links">
+                    <a href="https://email-sms-spamclassifier.streamlit.app/" class="project-link" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, '_blank'); return false;">
+                        Try App
+                    </a>
+                </div>
+            </div>
+            <div class="project-card">
+                <h3>Gemini AI Chatbot</h3>
+                <p>Role-Based Conversational Bot using Streamlit and Gemini API</p>
+                <div class="project-tags">
+                    <span>Streamlit</span>
+                    <span>Gemini API</span>
+                    <span>AI</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://chatbot-hfeoljbrgnvocibrehkd6m.streamlit.app/" class="project-link" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, '_blank'); return false;">
+                        Try Chatbot
+                    </a>
+                </div>
+            </div>
+            <div class="project-card">
+                <h3>Data Analysis AI-Agent</h3>
+                <p>AI-Powered CSV Chat Assistant using LangChain and Gemini</p>
+                <div class="project-tags">
+                    <span>LangChain</span>
+                    <span>Streamlit</span>
+                    <span>Agentic AI</span>
+
+                </div>
+                <div class="project-links">
+                    <a href="https://dataanalysisagent-hif7oryhb5m9xjtjbui5gp.streamlit.app/" class="project-link" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, '_blank'); return false;">
+                        Try Agent
+                    </a>
+                </div>
+            </div>
+            <div class="project-card">
+                <h3>Multi-Assistance Chatbot</h3>
+                <p>AI-Powered Multiple-Assistance Chatbot using LangChain and Gemini support (Python,Travel, Fitness, Career, Mental health, Code generator). <b>Make sure you have gemini api key to run this project.</b></p>
+                <div class="project-tags">
+                    <span>LangChain</span>
+                    <span>Streamlit</span>
+                    <span>Gen AI</span>
+                    <span>Gemini API</span>
+                    <span>Python</span>
+
+                </div>
+                <div class="project-links">
+                    <a href="https://multi-assistant-cgxbcmdsjsgwrvtcpxi4fq.streamlit.app/" class="project-link" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, '_blank'); return false;">
+                        Try Assistance
+                    </a>
+                </div>
+            </div>
+            <div class="project-card">
+                <h3>Netflix Analysis Dashboard</h3>
+                <p>Interactive Power BI dashboard for content analysis</p>
+                <div class="project-tags">
+                    <span>Power BI</span>
+                    <span>Data Visualization</span>
+                    <span>Business Intelligence</span>
+                    <span>Data Cleaning</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://app.powerbi.com/view?r=eyJrIjoiY2VmOWVmY2QtN2Y0YS00M2I0LTk5NDktNjdmODUwNjVkZWI2IiwidCI6IjBmN2I4ODE4LTM0MDktNDU0OC1hZDZhLTU5ZDRlZDI5ODRmYyJ9" class="project-link" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, '_blank'); return false;">
+                        View Dashboard
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume" class="resume">
+        <h2>Resume</h2>
+        <div class="resume-content">
+            <div class="resume-card">
+                <h3>Professional Summary</h3>
+                <p>Data Scientist and AI enthusiast with expertise in Python, SQL, Machine Learning, and Generative AI. Skilled in turning data into insights and building smart applications with deep learning and generative AI tools.</p>
+
+                <h3>Work Experience</h3>
+                <div class="experience-item">
+                    <h4>Data Science Intern</h4>
+                    <p class="company">Codec Technology , India</p>
+                    <p class="duration">June 2025 – September 2025</p>
+                    <ul class="responsibilities">
+                        <li>Mentoring students in Data Science, Machine Learning, Python, Statistics, AI, and Data Visualization</li>
+                        <li>Understanding EDA, predictive modeling, and business intelligence tools</li>
+                        <li>Providing hands-on guidance on real-world projects and helping students debug code</li>
+                    </ul>
+                </div>
+
+                <h3>Certifications</h3>
+                <ul class="certifications">
+                    <li> Deloitte Australia's Data Analytics on [ Forage ]</li>
+                    <li>Microsoft Azure AI Machine learning Deep learning </li>
+                    <li>Generative AI by Infosys Springboard!</li>
+                </ul>
+
+                <div class="resume-download">
+                    <a href="Rabindra_kumar.pdf" class="btn primary" download>
+                        <i class="fas fa-download"></i> Download Full Resume
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:rabindrakumar80834@gmail.com" class="contact-link" target="_blank" rel="noopener noreferrer">rabindrakumar80834@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/rabindra--kumar/" class="contact-link" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span class="contact-text">Baniyapur Saran, Bihar India</span>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h3>Send me a message</h3>
+                <form action="https://formspree.io/f/moverdez" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Rabindra Kumar. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
